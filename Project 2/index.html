@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="header">
+        <input type="text" id="sttPoint" value="0">
+        <form action="">
+            <h1 id="header-text">Class Marksheet</h1>
+           Họ và tên : <input type="text" name="" id="getName" required> <br>
+
+           Điểm toán : <input type="text" name="" id="getMath" required> <br>
+
+           Điểm Lý : <input type="text" name="" id="getPhy" required> <br>
+
+           Điểm Hóa : <input type="text" name="" id="getChe" required>
+        </form>
+
+        <button class="run" onclick="themHang()">Nhập</button>
+    </div>
+    <table width='100%' id="table-point" border="1" cellpadding='2' cellspacing='1'>
+        <thead>
+                <th width='5%'>STT</th>
+                <th width='35%'>Họ tên</th>
+                <th width='15%'>Toán</th>
+                <th width='15%'>Lý</th>
+                <th width='15%'>Hóa</th>
+                <th width='15%'>Trung bình</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div class="button-foo">
+        <button onclick="mediumScore()">Tính điểm trung bình</button>
+        <button onclick="classify()"> Xếp loại học giỏi</button>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

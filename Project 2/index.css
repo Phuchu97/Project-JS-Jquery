@@ -1,0 +1,20 @@
+#table-point {
+    text-align: center;
+}
+.header {
+    text-align: center;
+}
+input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button-foo {
+    text-align: center;
+}
+#sttPoint {
+    display: none;
+}
